@@ -54,6 +54,18 @@ body {
   grid-template-rows: 100px 1fr;
 }
 
+.body-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.right-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .header {
   background-color: #fff;
   padding: 20px;
