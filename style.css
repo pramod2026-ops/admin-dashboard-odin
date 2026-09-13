@@ -331,9 +331,6 @@ body {
 /* Mobile 768px and below  */
 
 @media (max-width: 768px) {
-  body {
-    overflow: hidden;
-  }
   .container {
     display: block;
     min-height: 100vh;
