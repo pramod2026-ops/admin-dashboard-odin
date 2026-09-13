@@ -14,6 +14,16 @@ body {
   grid-template-columns: 250px 1fr;
   grid-template-rows: 100px 1fr;
 }
+.dashboard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.logo-icon {
+  font-size: 36px;
+}
 
 .sidebar {
   background-color: #1992d4;
@@ -128,7 +138,10 @@ body {
 
 .search {
   flex: 1;
-  max-width: 600px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .search input {
@@ -143,6 +156,9 @@ body {
   border-color: #1992d4;
 }
 
+.handle {
+  font-size: 14px;
+}
 .user-info {
   display: flex;
   align-items: center;
@@ -225,4 +241,10 @@ body {
 .trending p {
   color: #666;
   font-size: 14px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
