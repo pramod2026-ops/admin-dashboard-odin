@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 250px 1fr;
+  grid-template-rows: 100px 1fr;
 }
 
 .sidebar {
@@ -21,7 +22,9 @@ body {
 
   display: flex;
   flex-direction: column;
+
   min-height: 100vh;
+  grid-row: 1 / 2;
 }
 
 .sidebar h1 {
